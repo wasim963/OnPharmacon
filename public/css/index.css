@@ -1,0 +1,108 @@
+
+#topBar{
+	height: 85px;
+	background-color: white;
+}
+
+#top2nd{
+	height: 60px;
+	background-color: darkcyan;
+	font-size: 14px;
+}
+
+#top2nd a{
+	color: white !important;
+	text-decoration: none !important;
+	font-weight: bold;
+}
+
+#top3rd{
+	height: 350px;
+}
+
+.mySlides {
+	display:none;
+}
+
+#top4th{
+	height: 350px;
+	background-color:white;
+}
+
+#top4th a{
+	color: black !important;
+	text-decoration-line:underline !important;
+}
+
+#zoom1:hover,#zoom2:hover,#zoom3:hover,#zoom4:hover{
+	transform: scale(1.1);
+}
+
+#top5th{
+	height: 400px;
+	background-color: silver;
+}
+
+#bot2nd{
+	height: 350px;
+	background-color: deepskyblue;
+	padding-top: 20px;
+	color: white;
+	font-weight: bolder;
+}
+
+#bot2nd a{
+	color: white !important;
+	font-size: 14px;
+	text-decoration-line: none !important;
+	font-weight: lighter !important;
+}
+
+#bottom{
+	height: 55px;
+	background-color:rgb(1010,55,99);
+	font-size: 11px;
+	color: white;
+	padding-top:7px;
+}
+#bottom a{
+	color: white !important;
+	text-decoration-line: none !important;
+}
+
+#AcFonts{
+	height: 26px;
+	width: 370px;
+	background-color: darkcyan;
+	color: white;
+	padding: 2px;
+	padding-left: 20px;
+}
+
+#AcInfo p>a{
+	color: #5a6268 !important;
+	text-decoration-line: none !important;
+}
+
+#AcDet{
+	color: #5a6268;
+	padding-left: 8px;
+}
+
+#acForm input{
+	width: 80%;
+	height: 30px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  background-color:white;
+  margin-left: -60px;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+   pointer-events: none;
+}
